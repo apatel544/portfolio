@@ -1,10 +1,11 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "../styles/Navbar.css";
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navbar">
       <Navbar.Brand as={Link} to="/">My Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
