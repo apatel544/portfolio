@@ -1,20 +1,21 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import "../styles/Footer.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   return (
-    <footer className="footer mt-5">
+    <footer className="footer">
       <Container>
         <Row className="justify-content-center">
           <Col className="text-center">
-            <ul className="socialmedia list-inline">
+            <ul className="social-media list-inline">
               <li className="list-inline-item">
-                <a href="https://github.com/apatel544" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
+                <a href="https://github.com/apatel544" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
               </li>
               <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/ankurpatel-1/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                <a href="https://www.linkedin.com/in/ankurpatel-1/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
               </li>
             </ul>
           </Col>
@@ -25,7 +26,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-    </footer>
+    </footer >
   );
 };
 

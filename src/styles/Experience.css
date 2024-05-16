@@ -1,0 +1,15 @@
+.experience {
+  background: #c3cff0;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element--education {
+  background-color: #ddd;
+  border: none;
+  color: rgb(137, 14, 14);
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.vertical-timeline-element--work .vertical-timeline-element--education:hover {
+  background-color: #3e8e41;
+  color: white;
+}
