@@ -7,13 +7,12 @@
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  margin-top: 200px;
 }
 
-.socialMedia svg {
+.social-media svg {
   color: white;
-  margin: 50px;
-  font-size: 70px;
+  margin: 30px;
+  font-size: 40px;
   cursor: pointer;
 }
 

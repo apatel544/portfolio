@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../2024 Projects/fullstack-course4-master"
+	},
+	{
+		"path": "../../../2022_projects/apatel544.github.io"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "fullstack-course4-master"
+  }
+}

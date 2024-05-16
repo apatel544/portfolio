@@ -1,21 +1,29 @@
 .navbar {
   width: 100%;
   height: 100px;
+  color: #fff;
   /* change background color to be more readable */
-  background: #21325e;
+  background: #fff;
 }
-
+.navbar-brand {
+  color: #0f0f0f;
+}
 .nav-link {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: yellow;
+  color: #0f0f0f;
+}
+.nav-link:active {
+  background-color: green;
+}
+* {
+  font-family: "Playfair Display", serif;
 }
 
 .navbar a {
-  color: white;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
